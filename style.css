@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	
+	font-family: rosario;
+	margin:10;
+	padding: 0px;
+	border: 0px;
+	
+}
+
+h1{
+	float: left;
+	
+}
+
+img{
+	float: left;
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-left: 10px;
+	flex: auto;
+}
+
+nav{
+	display: block;
+	font-size: 25px;
+}
+
+header{
+	display: block;
+	overflow: hidden;
+}
+footer{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: red;
+}
+
+a{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+a:hover{
+	color: #669933;
+}
+section{
+	display: flex; 
+	justify-content: center;
+	flex direction: row;
+}
+div{
+	width: 1225px;
+	margin-left: 10px;
+	font-size: 30px;
+}
